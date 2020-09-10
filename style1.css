@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 10px;
+    height: 445px;
+    /* Should be removed. Only for demonstration */
+}
+
+.left,
+.right {
+    width: 18%;
+}
+
+.middle {
+    width: 61%;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h1 {
+    text-align: center;
+}
+
+footer p {
+    text-align: left;
+}
+
+#home {
+    background-color: #FFA500;
+    padding: 0.5em;
+    color: white;
+}
+
+footer {
+    background-color: #FFA500;
+    padding: 0.5em;
+    color: white;
+}
+
+p {
+    color: white;
+}
